@@ -1,16 +1,17 @@
 import './App.css';
-import NavyBar from './Navybar';
-import Content from './Content';
+import Content from './content'
+// import Navybar from './Navybar';
 
-
-export default function MyApp() {
-
+function MyApp() {
+const data=[{title:"opening blog",author:"Mani"}]
   return (
     <div className='container'>
-     <NavyBar />
-     <hr />
-     <Content />
+     {/* <Navybar />
+     <hr /> */}
+     <Content obj={data} />
     </div>
-  )
+  ) 
 }
+export default MyApp;
 
+ 

@@ -1,6 +1,5 @@
 
 .container{
-  /* background-color: #a8c1f3; */
   font-style:italic;
   margin:5%;
 }
@@ -11,29 +10,27 @@
   max-height: fit-content;
 }
 .navyTitle{
-  color:rgb(228, 71, 154)
+  color:#e4479a
 }
 .blogBtn{
-  background-color:rgb(228, 71, 154) ;
+  background-color:#e4479a ;
   color: #ffffff;
   border-radius: 10px;
 }
 .homeBtn{
 margin-right: 10px;
 border-radius: 10px;
-border-color: white;
+border-color: #ffffff;
 
 }
 .homeBtn:hover{
-  color:white;
-  background-color: rgb(228, 71, 154);
+  color:#ffffff;
+  background-color: #e4479a;
 }
 h1{
-  color:rgb(228, 71, 154);
+  color:#e4479a;
 }
-button{
-  padding: 20px;
-}
+
 .blogBtn:hover{
   background-color:#f5f5dc;
   color: #000000;
